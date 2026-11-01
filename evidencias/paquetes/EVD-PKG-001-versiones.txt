@@ -1,0 +1,7 @@
+acl 2.3.2-2+b1
+nfs-common 1:2.8.3-1
+nfs-kernel-server 1:2.8.3-1
+openssh-server 1:10.0p1-7+deb13u4
+samba 2:4.22.10+dfsg-0+deb13u2
+smbclient 2:4.22.10+dfsg-0+deb13u2
+ufw 0.36.2-9
