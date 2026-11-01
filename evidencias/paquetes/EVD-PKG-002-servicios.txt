@@ -1,5 +1,5 @@
-enabled
-enabled
-enabled
-enabled
-enabled
+ssh          enabled
+smbd         enabled
+nmbd         enabled
+nfs-server   enabled
+ufw          enabled
