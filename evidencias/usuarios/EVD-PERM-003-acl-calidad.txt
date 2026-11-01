@@ -1,0 +1,15 @@
+# file: srv/empresa/calidad
+# owner: root
+# group: calidad
+# flags: -s-
+user::rwx
+group::rwx
+group:sistemas:rwx
+mask::rwx
+other::---
+default:user::rwx
+default:group::rwx
+default:group:sistemas:rwx
+default:mask::rwx
+default:other::---
+

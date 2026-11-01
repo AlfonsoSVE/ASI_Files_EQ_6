@@ -1,0 +1,4 @@
+OK soporte-iot
+touch: no se puede efectuar `touch' sobre '/srv/empresa/calidad/prueba.txt': Permiso denegado
+DENEGADO calidad (esperado)
+OK admin

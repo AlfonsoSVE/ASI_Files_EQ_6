@@ -1,0 +1,4 @@
+drwxrws---+ 2 root calidad     4096 nov  1 17:47 /srv/empresa/calidad
+drwxrws---+ 2 root fullstack   4096 nov  1 17:40 /srv/empresa/fullstack
+drwxrws---  2 root sistemas    4096 nov  1 17:40 /srv/empresa/sistemas
+drwxrws---+ 2 root soporte-iot 4096 nov  1 17:47 /srv/empresa/soporte-iot
