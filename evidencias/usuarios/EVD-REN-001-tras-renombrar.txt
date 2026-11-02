@@ -1,0 +1,26 @@
+finanzas:x:3001:
+rrhh:x:3002:
+venta:x:3003:
+uid=2002(jazmin) gid=3001(finanzas) grupos=3001(finanzas)
+uid=2003(luis) gid=3002(rrhh) grupos=3002(rrhh)
+uid=2004(zabdiel) gid=3003(venta) grupos=3003(venta)
+drwxrws---+ 2 root finanzas 4096 nov  1 17:49 /srv/empresa/finanzas
+drwxrws---+ 2 root rrhh     4096 nov  1 17:49 /srv/empresa/rrhh
+drwxrws---  2 root sistemas 4096 nov  1 17:40 /srv/empresa/sistemas
+drwxrws---+ 2 root venta    4096 nov  1 17:40 /srv/empresa/venta
+getfacl: Eliminando '/' inicial en nombres de ruta absolutos
+# file: srv/empresa/finanzas
+# owner: root
+# group: finanzas
+# flags: -s-
+user::rwx
+group::rwx
+group:sistemas:rwx
+mask::rwx
+other::---
+default:user::rwx
+default:group::rwx
+default:group:sistemas:rwx
+default:mask::rwx
+default:other::---
+

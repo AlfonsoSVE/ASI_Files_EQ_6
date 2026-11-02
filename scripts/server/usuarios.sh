@@ -30,14 +30,14 @@ usermod -aG sudo alfonso
 BASE=/srv/empresa
 mkdir -p "$BASE"
 chown root:root "$BASE"; chmod 755 "$BASE"
-for d in soporte-iot calidad fullstack sistemas; do
+for d in finanzas rrhh venta sistemas; do
   mkdir -p "$BASE/$d"
   chown "root:$d" "$BASE/$d"
   chmod 2770 "$BASE/$d"
 done
 
 # sistemas accede a todas las carpetas departamentales (acceso y herencia)
-for d in soporte-iot calidad fullstack; do
+for d in finanzas rrhh venta; do
   setfacl -m  g:sistemas:rwx "$BASE/$d"
   setfacl -d -m g:sistemas:rwx "$BASE/$d"
 done
