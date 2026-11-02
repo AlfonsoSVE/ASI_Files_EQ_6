@@ -48,6 +48,10 @@ CAMBIADOS=()
 for src in "${!DESTINO[@]}"; do
   dst="${DESTINO[$src]}"
   orig="$REPO/configs/server/$src"
+  if [[ ! -f "$orig" ]]; then
+    echo "  - sin archivo en el repo, se omite: $src"
+    continue
+  fi
   nombre="$(echo "$src" | tr / _)"
 
   if [[ -f "$dst" ]] && cmp -s "$orig" "$dst"; then
