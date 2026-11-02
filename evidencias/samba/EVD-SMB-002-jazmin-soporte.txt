@@ -1,0 +1,2 @@
+Password for [EMPRESA\jazmin]:
+session setup failed: NT_STATUS_CONNECTION_DISCONNECTED

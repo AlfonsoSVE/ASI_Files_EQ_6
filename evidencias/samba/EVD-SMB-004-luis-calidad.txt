@@ -1,0 +1,2 @@
+Password for [EMPRESA\luis]:
+session setup failed: NT_STATUS_LOGON_FAILURE
