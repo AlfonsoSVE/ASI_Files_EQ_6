@@ -12,16 +12,16 @@ crear_usuario() { # nombre uid grupo shell homeflag(-m|-M)
 }
 
 # Departamentos (DEC-004)
-crear_grupo soporte-iot 3001
-crear_grupo calidad     3002
-crear_grupo fullstack   3003
+crear_grupo finanzas 3001
+crear_grupo rrhh     3002
+crear_grupo venta   3003
 crear_grupo sistemas    3004
 
 # Usuarios (DEC-004)
 crear_usuario alfonso 2001 sistemas   /bin/bash      -m
-crear_usuario jazmin  2002 soporte-iot /usr/sbin/nologin -M
-crear_usuario luis    2003 calidad     /usr/sbin/nologin -M
-crear_usuario zabdiel 2004 fullstack   /usr/sbin/nologin -M
+crear_usuario jazmin  2002 finanzas /usr/sbin/nologin -M
+crear_usuario luis    2003 rrhh    /usr/sbin/nologin -M
+crear_usuario zabdiel 2004 venta   /usr/sbin/nologin -M
 
 # Administrador del servidor (DEC-003)
 usermod -aG sudo alfonso
